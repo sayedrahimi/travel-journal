@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.nav{
+    background-color: #1d3557;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav > p{
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.world-icon{
+    Width:24px;
+    Height:24px;
+}
+
+
+
+.card-section{
+    display: flex;
+    margin: 40px;
+    align-items: center;
+    width: 550px;
+    border-bottom: 1px solid rgb(223, 219, 219);
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    color: #1d3557;
+    
+}
+
+.location > p{
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 10px;
+    
+}
+
+.location > a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+    font-weight: 300;
+    border-bottom: 1px solid gray;
+    margin-bottom: 0;
+}
+
+.mount-img{
+    width: 125px;
+    height: 168px;
+    top: 100px;
+    left: 40px;
+    gap: 0px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.mount-name{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #2B283A;
+}
+
+.travel-data{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.mount-description{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
